@@ -15,21 +15,3 @@ sidebar:
     nav: sidebar-sample
 ---
 
-I recently gave a talk on EM for GMMs and HMMs at EPFL and published the slides [here](https://maelfabien.github.io/machinelearning/GMM/). For the sake of the presentation, I built an interactive web application using Dash, Plotly, scikit-learn, open-cv and hmm-learn. In the app, I included:
-- GMM generated data exploration
-- K-Means vs. GMMs performance on overlapping clusters
-- Fitting EM on GMM data
-- EM-GMM for gender detection
-- Vector Quantization with k-Means
-- Background substraction with GMMs
-- Breast cancer data clustering with GMMs
-- AIC-BIC over the number of components
-- HMM-GMM data generation
-- HMM-GMM training and visualization
-- HMM-GMM for spoken digit speech recognition
-
-<iframe width="700" height="500" src="https://www.youtube.com/embed/hxr-UijYbpk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<br>
-
-I summarized the presentation mentioned above on Towards Data Science, right [here](https://towardsdatascience.com/expectation-maximization-for-gmms-explained-5636161577ca).
