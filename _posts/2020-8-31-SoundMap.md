@@ -39,19 +39,19 @@ Here's a small demonstration of the device when trying to locate people in a roo
 
 # How does it work?
 
-1. Object Recognition
+## 1. Object Recognition
 
 Our object recognition technologies relies on deep-learning to identify more than 20 classes of objects like chairs, tables, benches, bikes, cars... We process the images in real-time, up to 25 frames per second, using optimized hardware, a Raspberry Pi, and a simple camera. We estimate distance of objects, and their direction.
 
 ![](https://maelfabien.github.io/assets/images/soundmap3.jpg)
 
-2. Sound Map creation
+## 2. Sound Map creation
 
 Based on the detected objects, their angle and their distance, we generate a specific type of sound for each object. Each object is then given a sound, and the sound is played in the corresponding direction, with a volume that corresponds to the distance of the object.
 
 ![](https://maelfabien.github.io/assets/images/soundmap4.jpg)
 
-3. Change of scene detection
+## 3. Change of scene detection
 
 As soon as the scene observed by the camera has changed, a new scanning of the environment is triggered and the user can locate the surrounding objects again.
 
