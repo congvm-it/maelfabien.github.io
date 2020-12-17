@@ -1,18 +1,12 @@
 ---
-published: true
-title: SoundMap, assistive device for blind and visually impaired
-collection: ml
-layout: single
-author_profile: true
-read_time: true
-categories: [project]
+layout: archive
+permalink: /soundmap/
+title: Wanago
+author_profile: false
+classes: wide
 header :
+    image: "https://maelfabien.github.io/assets/images/soundmap_head.png"
     teaser : "https://maelfabien.github.io/assets/images/proj_25.jpg"
-comments : true
-toc: true
-toc_sticky: true
-sidebar:
-    nav: sidebar-sample
 ---
 
 My team recently won the [International Create Challenge](https://www.createchallenge.org/) (ICC) in Martigny. We won both the AI 1st prize and the AI healthcare award for a total of 7'000 CHF, with a project called SoundMap. We made a small website that explains the solution: http://soundmap.io/
