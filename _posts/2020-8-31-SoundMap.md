@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 title: SoundMap, assistive device for blind and visually impaired
 collection: ml
 layout: single
